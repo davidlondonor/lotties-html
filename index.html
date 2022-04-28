@@ -4,7 +4,92 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Juguemos con Lottie</title>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	</head>
-	<body></body>
+	<body>
+		<main class="bg-white">
+			<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+				<div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+					<div>
+						<h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+							Ejemplos de animaciones con Lottie
+						</h2>
+						<p class="mt-3 max-w-3xl text-lg text-gray-500">
+							Vamos a ver al detalle como podemos hacer algunas cosas
+						</p>
+					</div>
+					<div
+						class="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2"
+					>
+						<div
+							class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+						>
+							<lottie-player
+								src="https://assets2.lottiefiles.com/private_files/lf30_tmajwstf.json"
+								background="transparent"
+								speed="1"
+								style="width: 300px; height: 300px"
+								loop
+								autoplay
+							></lottie-player>
+						</div>
+						<div
+							class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+						>
+							<lottie-player
+								src="https://assets9.lottiefiles.com/packages/lf20_PBgNop.json"
+								background="transparent"
+								speed="1"
+								style="width: 300px; height: 300px"
+								loop
+								autoplay
+							></lottie-player>
+						</div>
+						<div
+							class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+						>
+							<iframe
+								src="https://embed.lottiefiles.com/animation/102744"
+							></iframe>
+						</div>
+						<div
+							class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+						>
+							<iframe
+								src="https://embed.lottiefiles.com/animation/102486"
+							></iframe>
+						</div>
+						<div
+							class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+						>
+							<lottie-player
+								src="https://assets8.lottiefiles.com/packages/lf20_otzj2s5v.json"
+								background="transparent"
+								speed="1"
+								style="width: 300px; height: 300px"
+								loop
+								controls
+								autoplay
+							></lottie-player>
+						</div>
+						<div
+							class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+						>
+							<lottie-player
+								src="https://assets9.lottiefiles.com/datafiles/MUp3wlMDGtoK5FK/data.json"
+								background="transparent"
+								speed="1"
+								style="width: 300px; height: 300px"
+								loop
+								controls
+								autoplay
+							></lottie-player>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>
